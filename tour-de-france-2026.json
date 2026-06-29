@@ -25,7 +25,18 @@
     "departure": "Barcelona",
     "arrival": "Barcelona",
     "race_ranking": "",
-    "startlist_quality_score": "1430"
+    "startlist_quality_score": "1430",
+    "date_vi": "04 tháng 7 năm 2026",
+    "start_time_vi": "17:05",
+    "distance_vi": "19,4 km",
+    "points_scale_vi": "GT.A.Stage",
+    "uci_scale_vi": "UCI.WE.GT.A.Stage",
+    "parcours_type_vi": "",
+    "gradient_final_km_vi": "6,0%",
+    "profile_score_vi": "23",
+    "vertical_meters_vi": "220 mét",
+    "departure_vi": "Barcelona",
+    "arrival_vi": "Barcelona"
   },
   {
     "stage": "2",
