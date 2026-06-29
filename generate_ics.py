@@ -1,0 +1,134 @@
+#!/usr/bin/env python3
+"""Generate Tour de France 2026 ICS from tour-de-france-2026.json."""
+from __future__ import annotations
+
+import hashlib
+import json
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+
+BASE = Path(__file__).resolve().parent
+JSON_PATH = BASE / "tour-de-france-2026.json"
+ICS_PATH = BASE / "tour-de-france-2026.ics"
+
+
+def esc(value: object) -> str:
+    """Escape text for a single-line ICS field."""
+    return (
+        str(value or "")
+        .replace("\\", "\\\\")
+        .replace("\n", "\\n")
+        .replace(",", "\\,")
+        .replace(";", "\\;")
+    )
+
+
+def stage_description(row: dict, stage: str) -> str:
+    """Build DESCRIPTION. Uses Vietnamese detailed fields when available."""
+    has_vi_detail = any(
+        row.get(k)
+        for k in [
+            "date_vi",
+            "start_time_vi",
+            "distance_vi",
+            "points_scale_vi",
+            "uci_scale_vi",
+            "terrain_type_vi",
+            "parcours_type_vi",
+            "gradient_final_km_vi",
+            "profile_score_vi",
+            "vertical_meters_vi",
+            "departure_vi",
+            "arrival_vi",
+        ]
+    )
+
+    if has_vi_detail:
+        title = row.get("race_info_title_vi") or (
+            "Thông tin cuộc đua" if stage == "1" else f"Thông tin cuộc đua Chặng {stage}"
+        )
+        lines = [title]
+        fields = [
+            ("Ngày", "date_vi"),
+            ("Thời gian bắt đầu" if stage != "1" else "Giờ bắt đầu", "start_time_vi"),
+            ("Hạng mục cuộc đua", "race_category_vi"),
+            ("Khoảng cách", "distance_vi"),
+            ("Hệ thống tính điểm", "points_scale_vi"),
+            ("Hệ thống tính điểm UCI", "uci_scale_vi"),
+            ("Loại địa hình", "terrain_type_vi"),
+            ("Loại đường đua", "parcours_type_vi"),
+            ("Độ dốc km cuối", "gradient_final_km_vi"),
+            ("Điểm ProfileScore", "profile_score_vi"),
+            ("Độ cao chênh lệch", "vertical_meters_vi"),
+            ("Điểm xuất phát", "departure_vi"),
+            ("Điểm đến", "arrival_vi"),
+        ]
+        for label, key in fields:
+            if key in row:
+                lines.append(f"{label}: {row.get(key, '')}")
+    else:
+        lines = [
+            f"Điểm xuất phát: {row.get('start', '')}",
+            f"Điểm đích: {row.get('finish', '')}",
+            f"Cự ly chặng: {row.get('distance', '')}",
+            f"Loại chặng: {row.get('type', '')}",
+            f"Ngày: {row.get('date_iso', '')}",
+            f"Lộ trình: {row.get('route', '')}",
+        ]
+
+    lines.append(f"Bình độ/cao độ: {row.get('elevation_note', 'Xem link nguồn chính thức')}")
+    if row.get("image_url"):
+        lines.append(f"Hình ảnh chặng: {row.get('image_url')}")
+    lines.append(
+        "Nguồn/Bình độ: "
+        + (row.get("profile_url") or row.get("detail") or "https://www.letour.fr/en/overall-route")
+    )
+    return "\n".join(lines)
+
+
+def generate() -> None:
+    rows = json.loads(JSON_PATH.read_text())
+    lines = [
+        "BEGIN:VCALENDAR",
+        "VERSION:2.0",
+        "PRODID:-//Nguyen Vu//Tour de France 2026//VI",
+        "CALSCALE:GREGORIAN",
+        "METHOD:PUBLISH",
+        "X-WR-CALNAME:Tour de France 2026",
+        "X-WR-TIMEZONE:Asia/Ho_Chi_Minh",
+    ]
+    now = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+
+    for row in rows:
+        stage = str(row.get("stage", "")).strip()
+        date_iso = row["date_iso"]
+        dt = datetime.strptime(date_iso, "%Y-%m-%d")
+        is_rest = stage == "-" or "rest" in row.get("type", "").lower() or "rest" in row.get("route", "").lower()
+        summary = (
+            f"Tour de France 2026 · Rest Day · {row.get('route', '')}"
+            if is_rest
+            else f"Tour de France 2026 · Chặng {stage} · {row.get('route', '')}"
+        )
+        uid = hashlib.sha1(
+            f"tdf2026-{date_iso}-{stage}-{row.get('route', '')}".encode("utf-8")
+        ).hexdigest() + "@nguyenvu"
+
+        lines += [
+            "BEGIN:VEVENT",
+            f"UID:{uid}",
+            f"DTSTAMP:{now}",
+            f"DTSTART;VALUE=DATE:{dt:%Y%m%d}",
+            f"DTEND;VALUE=DATE:{(dt + timedelta(days=1)):%Y%m%d}",
+            f"SUMMARY:{esc(summary)}",
+            f"DESCRIPTION:{esc(stage_description(row, stage))}",
+            "STATUS:CONFIRMED",
+            "END:VEVENT",
+        ]
+
+    lines.append("END:VCALENDAR")
+    ICS_PATH.write_text("\r\n".join(lines) + "\r\n")
+    print(f"Wrote {ICS_PATH} with {len(rows)} events")
+
+
+if __name__ == "__main__":
+    generate()
