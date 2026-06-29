@@ -11,18 +11,29 @@
     "profile_score_vi": "23",
     "vertical_meters_vi": "220 mét",
     "departure_vi": "Barcelona",
-    "arrival_vi": "Barcelona"
+    "arrival_vi": "Barcelona",
+    "date_iso": "2026-07-04",
+    "route": "Barcelone > Barcelone",
+    "type": "Team Time-Trial",
+    "start": "Barcelona",
+    "finish": "Barcelona",
+    "distance": "19.4 km",
+    "profile_url": "https://www.letour.fr/en/stage-1",
+    "image_url": "https://www.letour.fr/img/global/logo-og.png",
+    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.",
+    "race_info_title_vi": "Thông tin cuộc đua",
+    "terrain_type_vi": "Chặng tính giờ"
   },
   {
     "stage": "2",
-    "race_info_title_vi": "Thông tin cuộc đua Chặng 2",
+    "race_info_title_vi": "Thông tin cuộc đua",
     "date_vi": "05 tháng 7 năm 2026",
     "start_time_vi": "13:55",
     "race_category_vi": "ME - Nam Elite",
     "distance_vi": "169,2 km",
     "points_scale_vi": "GT.A.Stage",
     "uci_scale_vi": "UCI.WE.GT.A.Stage",
-    "terrain_type_vi": "Chặng đồi núi",
+    "terrain_type_vi": "Chặng đường đồi núi",
     "gradient_final_km_vi": "3,6%",
     "profile_score_vi": "137",
     "vertical_meters_vi": "2049 mét",
@@ -49,7 +60,16 @@
     "finish": "Les Angles",
     "profile_url": "https://www.letour.fr/en/stage-3",
     "image_url": "https://www.letour.fr/img/global/logo-og.png",
-    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ."
+    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.",
+    "race_info_title_vi": "Thông tin cuộc đua",
+    "date_vi": "06 tháng 7 năm 2026",
+    "start_time_vi": "",
+    "distance_vi": "195,9 km",
+    "terrain_type_vi": "Chặng đường đồi núi",
+    "gradient_final_km_vi": "",
+    "vertical_meters_vi": "",
+    "departure_vi": "Granollers",
+    "arrival_vi": "Les Angles"
   },
   {
     "stage": "4",
@@ -63,7 +83,16 @@
     "finish": "Foix",
     "profile_url": "https://www.letour.fr/en/stage-4",
     "image_url": "https://www.letour.fr/img/global/logo-og.png",
-    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ."
+    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.",
+    "race_info_title_vi": "Thông tin cuộc đua",
+    "date_vi": "07 tháng 7 năm 2026",
+    "start_time_vi": "",
+    "distance_vi": "181,9 km",
+    "terrain_type_vi": "Chặng đường đồi núi",
+    "gradient_final_km_vi": "",
+    "vertical_meters_vi": "",
+    "departure_vi": "Carcassonne",
+    "arrival_vi": "Foix"
   },
   {
     "stage": "5",
@@ -77,7 +106,16 @@
     "finish": "Pau",
     "profile_url": "https://www.letour.fr/en/stage-5",
     "image_url": "https://www.letour.fr/img/global/logo-og.png",
-    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ."
+    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.",
+    "race_info_title_vi": "Thông tin cuộc đua",
+    "date_vi": "08 tháng 7 năm 2026",
+    "start_time_vi": "",
+    "distance_vi": "158,3 km",
+    "terrain_type_vi": "Chặng đường bằng phẳng",
+    "gradient_final_km_vi": "",
+    "vertical_meters_vi": "",
+    "departure_vi": "Lannemezan",
+    "arrival_vi": "Pau"
   },
   {
     "stage": "6",
@@ -91,7 +129,16 @@
     "finish": "Gavarnie-Gèdre",
     "profile_url": "https://www.letour.fr/en/stage-6",
     "image_url": "https://www.letour.fr/img/global/logo-og.png",
-    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ."
+    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.",
+    "race_info_title_vi": "Thông tin cuộc đua",
+    "date_vi": "09 tháng 7 năm 2026",
+    "start_time_vi": "",
+    "distance_vi": "186,2 km",
+    "terrain_type_vi": "Chặng đường đồi núi",
+    "gradient_final_km_vi": "",
+    "vertical_meters_vi": "",
+    "departure_vi": "Pau",
+    "arrival_vi": "Gavarnie-Gèdre"
   },
   {
     "stage": "7",
@@ -105,7 +152,16 @@
     "finish": "Bordeaux",
     "profile_url": "https://www.letour.fr/en/stage-7",
     "image_url": "https://www.letour.fr/img/global/logo-og.png",
-    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ."
+    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.",
+    "race_info_title_vi": "Thông tin cuộc đua",
+    "date_vi": "10 tháng 7 năm 2026",
+    "start_time_vi": "",
+    "distance_vi": "175,1 km",
+    "terrain_type_vi": "Chặng đường bằng phẳng",
+    "gradient_final_km_vi": "",
+    "vertical_meters_vi": "",
+    "departure_vi": "Hagetmau",
+    "arrival_vi": "Bordeaux"
   },
   {
     "stage": "8",
@@ -119,7 +175,16 @@
     "finish": "Bergerac",
     "profile_url": "https://www.letour.fr/en/stage-8",
     "image_url": "https://www.letour.fr/img/global/logo-og.png",
-    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ."
+    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.",
+    "race_info_title_vi": "Thông tin cuộc đua",
+    "date_vi": "11 tháng 7 năm 2026",
+    "start_time_vi": "",
+    "distance_vi": "180,4 km",
+    "terrain_type_vi": "Chặng đường bằng phẳng",
+    "gradient_final_km_vi": "",
+    "vertical_meters_vi": "",
+    "departure_vi": "Périgueux",
+    "arrival_vi": "Bergerac"
   },
   {
     "stage": "9",
@@ -133,7 +198,16 @@
     "finish": "Ussel",
     "profile_url": "https://www.letour.fr/en/stage-9",
     "image_url": "https://www.letour.fr/img/global/logo-og.png",
-    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ."
+    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.",
+    "race_info_title_vi": "Thông tin cuộc đua",
+    "date_vi": "12 tháng 7 năm 2026",
+    "start_time_vi": "",
+    "distance_vi": "185,5 km",
+    "terrain_type_vi": "Chặng đường đồi núi",
+    "gradient_final_km_vi": "",
+    "vertical_meters_vi": "",
+    "departure_vi": "Malemort",
+    "arrival_vi": "Ussel"
   },
   {
     "stage": "-",
@@ -161,7 +235,16 @@
     "finish": "Le Lioran",
     "profile_url": "https://www.letour.fr/en/stage-10",
     "image_url": "https://www.letour.fr/img/global/logo-og.png",
-    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ."
+    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.",
+    "race_info_title_vi": "Thông tin cuộc đua",
+    "date_vi": "14 tháng 7 năm 2026",
+    "start_time_vi": "",
+    "distance_vi": "166,6 km",
+    "terrain_type_vi": "Chặng đường đồi núi",
+    "gradient_final_km_vi": "",
+    "vertical_meters_vi": "",
+    "departure_vi": "Aurillac",
+    "arrival_vi": "Le Lioran"
   },
   {
     "stage": "11",
@@ -175,7 +258,16 @@
     "finish": "Nevers",
     "profile_url": "https://www.letour.fr/en/stage-11",
     "image_url": "https://www.letour.fr/img/global/logo-og.png",
-    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ."
+    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.",
+    "race_info_title_vi": "Thông tin cuộc đua",
+    "date_vi": "15 tháng 7 năm 2026",
+    "start_time_vi": "",
+    "distance_vi": "161,3 km",
+    "terrain_type_vi": "Chặng đường bằng phẳng",
+    "gradient_final_km_vi": "",
+    "vertical_meters_vi": "",
+    "departure_vi": "Vichy",
+    "arrival_vi": "Nevers"
   },
   {
     "stage": "12",
@@ -189,7 +281,16 @@
     "finish": "Chalon-sur-Saône",
     "profile_url": "https://www.letour.fr/en/stage-12",
     "image_url": "https://www.letour.fr/img/global/logo-og.png",
-    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ."
+    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.",
+    "race_info_title_vi": "Thông tin cuộc đua",
+    "date_vi": "16 tháng 7 năm 2026",
+    "start_time_vi": "",
+    "distance_vi": "179,1 km",
+    "terrain_type_vi": "Chặng đường bằng phẳng",
+    "gradient_final_km_vi": "",
+    "vertical_meters_vi": "",
+    "departure_vi": "Circuit Nevers Magny-Cours",
+    "arrival_vi": "Chalon-sur-Saône"
   },
   {
     "stage": "13",
@@ -203,7 +304,16 @@
     "finish": "Belfort",
     "profile_url": "https://www.letour.fr/en/stage-13",
     "image_url": "https://www.letour.fr/img/global/logo-og.png",
-    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ."
+    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.",
+    "race_info_title_vi": "Thông tin cuộc đua",
+    "date_vi": "17 tháng 7 năm 2026",
+    "start_time_vi": "",
+    "distance_vi": "205,8 km",
+    "terrain_type_vi": "Chặng đường đồi núi",
+    "gradient_final_km_vi": "",
+    "vertical_meters_vi": "",
+    "departure_vi": "Dole",
+    "arrival_vi": "Belfort"
   },
   {
     "stage": "14",
@@ -217,7 +327,16 @@
     "finish": "Le Markstein Fellering",
     "profile_url": "https://www.letour.fr/en/stage-14",
     "image_url": "https://www.letour.fr/img/global/logo-og.png",
-    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ."
+    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.",
+    "race_info_title_vi": "Thông tin cuộc đua",
+    "date_vi": "18 tháng 7 năm 2026",
+    "start_time_vi": "",
+    "distance_vi": "155,3 km",
+    "terrain_type_vi": "Chặng đường đồi núi",
+    "gradient_final_km_vi": "",
+    "vertical_meters_vi": "",
+    "departure_vi": "Mulhouse",
+    "arrival_vi": "Le Markstein Fellering"
   },
   {
     "stage": "15",
@@ -231,7 +350,16 @@
     "finish": "Plateau de Solaison",
     "profile_url": "https://www.letour.fr/en/stage-15",
     "image_url": "https://www.letour.fr/img/global/logo-og.png",
-    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ."
+    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.",
+    "race_info_title_vi": "Thông tin cuộc đua",
+    "date_vi": "19 tháng 7 năm 2026",
+    "start_time_vi": "",
+    "distance_vi": "183,9 km",
+    "terrain_type_vi": "Chặng đường đồi núi",
+    "gradient_final_km_vi": "",
+    "vertical_meters_vi": "",
+    "departure_vi": "Champagnole",
+    "arrival_vi": "Plateau de Solaison"
   },
   {
     "stage": "-",
@@ -259,7 +387,16 @@
     "finish": "Thonon-les-Bains",
     "profile_url": "https://www.letour.fr/en/stage-16",
     "image_url": "https://www.letour.fr/img/global/logo-og.png",
-    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ."
+    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.",
+    "race_info_title_vi": "Thông tin cuộc đua",
+    "date_vi": "21 tháng 7 năm 2026",
+    "start_time_vi": "",
+    "distance_vi": "26,1 km",
+    "terrain_type_vi": "Chặng tính giờ",
+    "gradient_final_km_vi": "",
+    "vertical_meters_vi": "",
+    "departure_vi": "Évian-les-Bains",
+    "arrival_vi": "Thonon-les-Bains"
   },
   {
     "stage": "17",
@@ -273,7 +410,16 @@
     "finish": "Voiron",
     "profile_url": "https://www.letour.fr/en/stage-17",
     "image_url": "https://www.letour.fr/img/global/logo-og.png",
-    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ."
+    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.",
+    "race_info_title_vi": "Thông tin cuộc đua",
+    "date_vi": "22 tháng 7 năm 2026",
+    "start_time_vi": "",
+    "distance_vi": "174,7 km",
+    "terrain_type_vi": "Chặng đường bằng phẳng",
+    "gradient_final_km_vi": "",
+    "vertical_meters_vi": "",
+    "departure_vi": "Chambery",
+    "arrival_vi": "Voiron"
   },
   {
     "stage": "18",
@@ -287,7 +433,16 @@
     "finish": "Orcières-Merlette",
     "profile_url": "https://www.letour.fr/en/stage-18",
     "image_url": "https://www.letour.fr/img/global/logo-og.png",
-    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ."
+    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.",
+    "race_info_title_vi": "Thông tin cuộc đua",
+    "date_vi": "23 tháng 7 năm 2026",
+    "start_time_vi": "",
+    "distance_vi": "185,2 km",
+    "terrain_type_vi": "Chặng đường đồi núi",
+    "gradient_final_km_vi": "",
+    "vertical_meters_vi": "",
+    "departure_vi": "Voiron",
+    "arrival_vi": "Orcières-Merlette"
   },
   {
     "stage": "19",
@@ -301,7 +456,16 @@
     "finish": "Alpe d'Huez",
     "profile_url": "https://www.letour.fr/en/stage-19",
     "image_url": "https://www.letour.fr/img/global/logo-og.png",
-    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ."
+    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.",
+    "race_info_title_vi": "Thông tin cuộc đua",
+    "date_vi": "24 tháng 7 năm 2026",
+    "start_time_vi": "",
+    "distance_vi": "127,9 km",
+    "terrain_type_vi": "Chặng đường đồi núi",
+    "gradient_final_km_vi": "",
+    "vertical_meters_vi": "",
+    "departure_vi": "Gap",
+    "arrival_vi": "Alpe d'Huez"
   },
   {
     "stage": "20",
@@ -315,7 +479,16 @@
     "finish": "Alpe d'Huez",
     "profile_url": "https://www.letour.fr/en/stage-20",
     "image_url": "https://www.letour.fr/img/global/logo-og.png",
-    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ."
+    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.",
+    "race_info_title_vi": "Thông tin cuộc đua",
+    "date_vi": "25 tháng 7 năm 2026",
+    "start_time_vi": "",
+    "distance_vi": "170,9 km",
+    "terrain_type_vi": "Chặng đường đồi núi",
+    "gradient_final_km_vi": "",
+    "vertical_meters_vi": "",
+    "departure_vi": "Le Bourg d'Oisans",
+    "arrival_vi": "Alpe d'Huez"
   },
   {
     "stage": "21",
@@ -329,6 +502,15 @@
     "finish": "Paris Champs-Élysées",
     "profile_url": "https://www.letour.fr/en/stage-21",
     "image_url": "https://www.letour.fr/img/global/logo-og.png",
-    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ."
+    "elevation_note": "Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.",
+    "race_info_title_vi": "Thông tin cuộc đua",
+    "date_vi": "26 tháng 7 năm 2026",
+    "start_time_vi": "",
+    "distance_vi": "133 km",
+    "terrain_type_vi": "Chặng đường bằng phẳng",
+    "gradient_final_km_vi": "",
+    "vertical_meters_vi": "",
+    "departure_vi": "Thoiry",
+    "arrival_vi": "Paris Champs-Élysées"
   }
 ]

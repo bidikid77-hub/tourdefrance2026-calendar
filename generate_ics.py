@@ -24,19 +24,15 @@ def esc(value: object) -> str:
 
 
 def stage_description(row: dict, stage: str) -> str:
-    """Build DESCRIPTION. Uses Vietnamese detailed fields when available."""
+    """Build DESCRIPTION. Uses compact Vietnamese race-info fields when available."""
     has_vi_detail = any(
         row.get(k)
         for k in [
             "date_vi",
             "start_time_vi",
             "distance_vi",
-            "points_scale_vi",
-            "uci_scale_vi",
             "terrain_type_vi",
-            "parcours_type_vi",
             "gradient_final_km_vi",
-            "profile_score_vi",
             "vertical_meters_vi",
             "departure_vi",
             "arrival_vi",
@@ -44,28 +40,19 @@ def stage_description(row: dict, stage: str) -> str:
     )
 
     if has_vi_detail:
-        title = row.get("race_info_title_vi") or (
-            "Thông tin cuộc đua" if stage == "1" else f"Thông tin cuộc đua Chặng {stage}"
-        )
-        lines = [title]
+        lines = [row.get("race_info_title_vi") or "Thông tin cuộc đua"]
         fields = [
             ("Ngày", "date_vi"),
-            ("Thời gian bắt đầu" if stage != "1" else "Giờ bắt đầu", "start_time_vi"),
-            ("Hạng mục cuộc đua", "race_category_vi"),
+            ("Giờ bắt đầu", "start_time_vi"),
             ("Khoảng cách", "distance_vi"),
-            ("Hệ thống tính điểm", "points_scale_vi"),
-            ("Hệ thống tính điểm UCI", "uci_scale_vi"),
-            ("Loại địa hình", "terrain_type_vi"),
-            ("Loại đường đua", "parcours_type_vi"),
+            ("Loại đường đua", "terrain_type_vi"),
             ("Độ dốc km cuối", "gradient_final_km_vi"),
-            ("Điểm ProfileScore", "profile_score_vi"),
             ("Độ cao chênh lệch", "vertical_meters_vi"),
             ("Điểm xuất phát", "departure_vi"),
             ("Điểm đến", "arrival_vi"),
         ]
         for label, key in fields:
-            if key in row:
-                lines.append(f"{label}: {row.get(key, '')}")
+            lines.append(f"{label}: {row.get(key, '')}")
     else:
         lines = [
             f"Điểm xuất phát: {row.get('start', '')}",
