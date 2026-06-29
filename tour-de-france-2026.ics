@@ -1,0 +1,215 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Nguyen Vu//Tour de France 2026//VI
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Tour de France 2026
+X-WR-TIMEZONE:Asia/Ho_Chi_Minh
+BEGIN:VEVENT
+UID:685541c7d1538aec506c916b7ccbe1d9d4fd0a2b@nguyenvu
+DTSTAMP:20260629T130540Z
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260705
+SUMMARY:Tour de France 2026 · Chặng 1 · Barcelone > Barcelone
+DESCRIPTION:Điểm xuất phát: Barcelone\nĐiểm đích: Barcelone\nCự ly chặng: 19.6 km\nLoại chặng: Team Time-Trial\nNgày: 2026-07-04\nLộ trình: Barcelone > Barcelone\nBình độ/cao độ: Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.\nHình ảnh chặng: https://www.letour.fr/img/global/logo-og.png\nNguồn/Bình độ: https://www.letour.fr/en/stage-1\nGhi chú: Chưa đưa cua rơ thắng chặng năm 2025 theo yêu cầu hiện tại.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:877419ad6bb9e826fe48c47383ec0f629e1e060d@nguyenvu
+DTSTAMP:20260629T130540Z
+DTSTART;VALUE=DATE:20260705
+DTEND;VALUE=DATE:20260706
+SUMMARY:Tour de France 2026 · Chặng 2 · Tarragone > Barcelone
+DESCRIPTION:Điểm xuất phát: Tarragone\nĐiểm đích: Barcelone\nCự ly chặng: 168.5 km\nLoại chặng: Hilly\nNgày: 2026-07-05\nLộ trình: Tarragone > Barcelone\nBình độ/cao độ: Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.\nHình ảnh chặng: https://www.letour.fr/img/global/logo-og.png\nNguồn/Bình độ: https://www.letour.fr/en/stage-2\nGhi chú: Chưa đưa cua rơ thắng chặng năm 2025 theo yêu cầu hiện tại.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:91f61da750b86ce31123a3a0f79b8163a14fca80@nguyenvu
+DTSTAMP:20260629T130540Z
+DTSTART;VALUE=DATE:20260706
+DTEND;VALUE=DATE:20260707
+SUMMARY:Tour de France 2026 · Chặng 3 · Granollers > Les Angles
+DESCRIPTION:Điểm xuất phát: Granollers\nĐiểm đích: Les Angles\nCự ly chặng: 195.9 km\nLoại chặng: Mountain\nNgày: 2026-07-06\nLộ trình: Granollers > Les Angles\nBình độ/cao độ: Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.\nHình ảnh chặng: https://www.letour.fr/img/global/logo-og.png\nNguồn/Bình độ: https://www.letour.fr/en/stage-3\nGhi chú: Chưa đưa cua rơ thắng chặng năm 2025 theo yêu cầu hiện tại.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:b01291b9c6de32f02a7b4168fb08f3c736c614ee@nguyenvu
+DTSTAMP:20260629T130540Z
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
+SUMMARY:Tour de France 2026 · Chặng 4 · Carcassonne > Foix
+DESCRIPTION:Điểm xuất phát: Carcassonne\nĐiểm đích: Foix\nCự ly chặng: 181.9 km\nLoại chặng: Hilly\nNgày: 2026-07-07\nLộ trình: Carcassonne > Foix\nBình độ/cao độ: Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.\nHình ảnh chặng: https://www.letour.fr/img/global/logo-og.png\nNguồn/Bình độ: https://www.letour.fr/en/stage-4\nGhi chú: Chưa đưa cua rơ thắng chặng năm 2025 theo yêu cầu hiện tại.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2e46870e0b801e04b20dab9b3d4f5b60f001de3a@nguyenvu
+DTSTAMP:20260629T130540Z
+DTSTART;VALUE=DATE:20260708
+DTEND;VALUE=DATE:20260709
+SUMMARY:Tour de France 2026 · Chặng 5 · Lannemezan > Pau
+DESCRIPTION:Điểm xuất phát: Lannemezan\nĐiểm đích: Pau\nCự ly chặng: 158.3 km\nLoại chặng: Flat\nNgày: 2026-07-08\nLộ trình: Lannemezan > Pau\nBình độ/cao độ: Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.\nHình ảnh chặng: https://www.letour.fr/img/global/logo-og.png\nNguồn/Bình độ: https://www.letour.fr/en/stage-5\nGhi chú: Chưa đưa cua rơ thắng chặng năm 2025 theo yêu cầu hiện tại.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:f395ae588879246439b23c7e10366ffefc831760@nguyenvu
+DTSTAMP:20260629T130540Z
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+SUMMARY:Tour de France 2026 · Chặng 6 · Pau > Gavarnie-Gèdre
+DESCRIPTION:Điểm xuất phát: Pau\nĐiểm đích: Gavarnie-Gèdre\nCự ly chặng: 186.2 km\nLoại chặng: Mountain\nNgày: 2026-07-09\nLộ trình: Pau > Gavarnie-Gèdre\nBình độ/cao độ: Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.\nHình ảnh chặng: https://www.letour.fr/img/global/logo-og.png\nNguồn/Bình độ: https://www.letour.fr/en/stage-6\nGhi chú: Chưa đưa cua rơ thắng chặng năm 2025 theo yêu cầu hiện tại.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2beb879cf7c368b5f8084b3c7798c61fa76b79fa@nguyenvu
+DTSTAMP:20260629T130540Z
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
+SUMMARY:Tour de France 2026 · Chặng 7 · Hagetmau > Bordeaux
+DESCRIPTION:Điểm xuất phát: Hagetmau\nĐiểm đích: Bordeaux\nCự ly chặng: 175.1 km\nLoại chặng: Flat\nNgày: 2026-07-10\nLộ trình: Hagetmau > Bordeaux\nBình độ/cao độ: Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.\nHình ảnh chặng: https://www.letour.fr/img/global/logo-og.png\nNguồn/Bình độ: https://www.letour.fr/en/stage-7\nGhi chú: Chưa đưa cua rơ thắng chặng năm 2025 theo yêu cầu hiện tại.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:6c46ae46c1753612afd39289639e90083f0dcdef@nguyenvu
+DTSTAMP:20260629T130540Z
+DTSTART;VALUE=DATE:20260711
+DTEND;VALUE=DATE:20260712
+SUMMARY:Tour de France 2026 · Chặng 8 · Périgueux > Bergerac
+DESCRIPTION:Điểm xuất phát: Périgueux\nĐiểm đích: Bergerac\nCự ly chặng: 180.4 km\nLoại chặng: Flat\nNgày: 2026-07-11\nLộ trình: Périgueux > Bergerac\nBình độ/cao độ: Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.\nHình ảnh chặng: https://www.letour.fr/img/global/logo-og.png\nNguồn/Bình độ: https://www.letour.fr/en/stage-8\nGhi chú: Chưa đưa cua rơ thắng chặng năm 2025 theo yêu cầu hiện tại.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cd829c7c49cb66dc21410eb2d583a3e0e3e7bf16@nguyenvu
+DTSTAMP:20260629T130540Z
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260713
+SUMMARY:Tour de France 2026 · Chặng 9 · Malemort > Ussel
+DESCRIPTION:Điểm xuất phát: Malemort\nĐiểm đích: Ussel\nCự ly chặng: 185.5 km\nLoại chặng: Hilly\nNgày: 2026-07-12\nLộ trình: Malemort > Ussel\nBình độ/cao độ: Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.\nHình ảnh chặng: https://www.letour.fr/img/global/logo-og.png\nNguồn/Bình độ: https://www.letour.fr/en/stage-9\nGhi chú: Chưa đưa cua rơ thắng chặng năm 2025 theo yêu cầu hiện tại.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:9578fe8e7ff0529a42c8ca8149da17dec0ce0f7d@nguyenvu
+DTSTAMP:20260629T130540Z
+DTSTART;VALUE=DATE:20260713
+DTEND;VALUE=DATE:20260714
+SUMMARY:Tour de France 2026 · Rest Day · Cantal
+DESCRIPTION:Điểm xuất phát: Cantal\nĐiểm đích: \nCự ly chặng: \nLoại chặng: Rest Day\nNgày: 2026-07-13\nLộ trình: Cantal\nBình độ/cao độ: Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.\nHình ảnh chặng: https://www.letour.fr/img/global/logo-og.png\nNguồn/Bình độ: https://www.letour.fr/en/rest-1\nGhi chú: Chưa đưa cua rơ thắng chặng năm 2025 theo yêu cầu hiện tại.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fac119afc6ce2a20712adfa4f7826aae3f6fc324@nguyenvu
+DTSTAMP:20260629T130540Z
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
+SUMMARY:Tour de France 2026 · Chặng 10 · Aurillac > Le Lioran
+DESCRIPTION:Điểm xuất phát: Aurillac\nĐiểm đích: Le Lioran\nCự ly chặng: 166.6 km\nLoại chặng: Mountain\nNgày: 2026-07-14\nLộ trình: Aurillac > Le Lioran\nBình độ/cao độ: Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.\nHình ảnh chặng: https://www.letour.fr/img/global/logo-og.png\nNguồn/Bình độ: https://www.letour.fr/en/stage-10\nGhi chú: Chưa đưa cua rơ thắng chặng năm 2025 theo yêu cầu hiện tại.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:eee4cf1fc01d79547bc3bf6457760866fac67cc0@nguyenvu
+DTSTAMP:20260629T130540Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+SUMMARY:Tour de France 2026 · Chặng 11 · Vichy > Nevers
+DESCRIPTION:Điểm xuất phát: Vichy\nĐiểm đích: Nevers\nCự ly chặng: 161.3 km\nLoại chặng: Flat\nNgày: 2026-07-15\nLộ trình: Vichy > Nevers\nBình độ/cao độ: Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.\nHình ảnh chặng: https://www.letour.fr/img/global/logo-og.png\nNguồn/Bình độ: https://www.letour.fr/en/stage-11\nGhi chú: Chưa đưa cua rơ thắng chặng năm 2025 theo yêu cầu hiện tại.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:89ba3d14bd404b30b876beded2a407529acdaaf4@nguyenvu
+DTSTAMP:20260629T130540Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:Tour de France 2026 · Chặng 12 · Circuit Nevers Magny-Cours > Chalon-sur-Saône
+DESCRIPTION:Điểm xuất phát: Circuit Nevers Magny-Cours\nĐiểm đích: Chalon-sur-Saône\nCự ly chặng: 179.1 km\nLoại chặng: Flat\nNgày: 2026-07-16\nLộ trình: Circuit Nevers Magny-Cours > Chalon-sur-Saône\nBình độ/cao độ: Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.\nHình ảnh chặng: https://www.letour.fr/img/global/logo-og.png\nNguồn/Bình độ: https://www.letour.fr/en/stage-12\nGhi chú: Chưa đưa cua rơ thắng chặng năm 2025 theo yêu cầu hiện tại.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:92599cb69bce4b6774013721fce8703465c6d6f2@nguyenvu
+DTSTAMP:20260629T130540Z
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
+SUMMARY:Tour de France 2026 · Chặng 13 · Dole > Belfort
+DESCRIPTION:Điểm xuất phát: Dole\nĐiểm đích: Belfort\nCự ly chặng: 205.8 km\nLoại chặng: Hilly\nNgày: 2026-07-17\nLộ trình: Dole > Belfort\nBình độ/cao độ: Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.\nHình ảnh chặng: https://www.letour.fr/img/global/logo-og.png\nNguồn/Bình độ: https://www.letour.fr/en/stage-13\nGhi chú: Chưa đưa cua rơ thắng chặng năm 2025 theo yêu cầu hiện tại.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a655b499ca10ca824d21e36a210a53b55dd3f46d@nguyenvu
+DTSTAMP:20260629T130540Z
+DTSTART;VALUE=DATE:20260718
+DTEND;VALUE=DATE:20260719
+SUMMARY:Tour de France 2026 · Chặng 14 · Mulhouse > Le Markstein Fellering
+DESCRIPTION:Điểm xuất phát: Mulhouse\nĐiểm đích: Le Markstein Fellering\nCự ly chặng: 155.3 km\nLoại chặng: Mountain\nNgày: 2026-07-18\nLộ trình: Mulhouse > Le Markstein Fellering\nBình độ/cao độ: Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.\nHình ảnh chặng: https://www.letour.fr/img/global/logo-og.png\nNguồn/Bình độ: https://www.letour.fr/en/stage-14\nGhi chú: Chưa đưa cua rơ thắng chặng năm 2025 theo yêu cầu hiện tại.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:f0ac39c31b683e96e41628ce7f36425b6ae59564@nguyenvu
+DTSTAMP:20260629T130540Z
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
+SUMMARY:Tour de France 2026 · Chặng 15 · Champagnole > Plateau de Solaison
+DESCRIPTION:Điểm xuất phát: Champagnole\nĐiểm đích: Plateau de Solaison\nCự ly chặng: 183.9 km\nLoại chặng: Mountain\nNgày: 2026-07-19\nLộ trình: Champagnole > Plateau de Solaison\nBình độ/cao độ: Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.\nHình ảnh chặng: https://www.letour.fr/img/global/logo-og.png\nNguồn/Bình độ: https://www.letour.fr/en/stage-15\nGhi chú: Chưa đưa cua rơ thắng chặng năm 2025 theo yêu cầu hiện tại.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:81807de88c06ddca4487802054f4f4b4c2c77239@nguyenvu
+DTSTAMP:20260629T130540Z
+DTSTART;VALUE=DATE:20260720
+DTEND;VALUE=DATE:20260721
+SUMMARY:Tour de France 2026 · Rest Day · Haute-savoie
+DESCRIPTION:Điểm xuất phát: Haute-savoie\nĐiểm đích: \nCự ly chặng: \nLoại chặng: Rest Day\nNgày: 2026-07-20\nLộ trình: Haute-savoie\nBình độ/cao độ: Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.\nHình ảnh chặng: https://www.letour.fr/img/global/logo-og.png\nNguồn/Bình độ: https://www.letour.fr/en/rest-2\nGhi chú: Chưa đưa cua rơ thắng chặng năm 2025 theo yêu cầu hiện tại.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a1e9b196d295a9ca29d0ece72aa5e05830460cf1@nguyenvu
+DTSTAMP:20260629T130540Z
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260722
+SUMMARY:Tour de France 2026 · Chặng 16 · Évian-les-Bains > Thonon-les-Bains
+DESCRIPTION:Điểm xuất phát: Évian-les-Bains\nĐiểm đích: Thonon-les-Bains\nCự ly chặng: 26.1 km\nLoại chặng: Individual time-trial\nNgày: 2026-07-21\nLộ trình: Évian-les-Bains > Thonon-les-Bains\nBình độ/cao độ: Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.\nHình ảnh chặng: https://www.letour.fr/img/global/logo-og.png\nNguồn/Bình độ: https://www.letour.fr/en/stage-16\nGhi chú: Chưa đưa cua rơ thắng chặng năm 2025 theo yêu cầu hiện tại.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:1b0d3760f8fdb54f6ec145833aefaa555dbbedcc@nguyenvu
+DTSTAMP:20260629T130540Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+SUMMARY:Tour de France 2026 · Chặng 17 · Chambery > Voiron
+DESCRIPTION:Điểm xuất phát: Chambery\nĐiểm đích: Voiron\nCự ly chặng: 174.7 km\nLoại chặng: Flat\nNgày: 2026-07-22\nLộ trình: Chambery > Voiron\nBình độ/cao độ: Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.\nHình ảnh chặng: https://www.letour.fr/img/global/logo-og.png\nNguồn/Bình độ: https://www.letour.fr/en/stage-17\nGhi chú: Chưa đưa cua rơ thắng chặng năm 2025 theo yêu cầu hiện tại.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fa0004a4c285b05e9ca985aefb5fa0f69745373a@nguyenvu
+DTSTAMP:20260629T130540Z
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+SUMMARY:Tour de France 2026 · Chặng 18 · Voiron > Orcières-Merlette
+DESCRIPTION:Điểm xuất phát: Voiron\nĐiểm đích: Orcières-Merlette\nCự ly chặng: 185.2 km\nLoại chặng: Mountain\nNgày: 2026-07-23\nLộ trình: Voiron > Orcières-Merlette\nBình độ/cao độ: Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.\nHình ảnh chặng: https://www.letour.fr/img/global/logo-og.png\nNguồn/Bình độ: https://www.letour.fr/en/stage-18\nGhi chú: Chưa đưa cua rơ thắng chặng năm 2025 theo yêu cầu hiện tại.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:5f7ec769ad513c5cfc545353248d67d19592b2ee@nguyenvu
+DTSTAMP:20260629T130540Z
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260725
+SUMMARY:Tour de France 2026 · Chặng 19 · Gap > Alpe d'Huez
+DESCRIPTION:Điểm xuất phát: Gap\nĐiểm đích: Alpe d'Huez\nCự ly chặng: 127.9 km\nLoại chặng: Mountain\nNgày: 2026-07-24\nLộ trình: Gap > Alpe d'Huez\nBình độ/cao độ: Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.\nHình ảnh chặng: https://www.letour.fr/img/global/logo-og.png\nNguồn/Bình độ: https://www.letour.fr/en/stage-19\nGhi chú: Chưa đưa cua rơ thắng chặng năm 2025 theo yêu cầu hiện tại.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:0d8beae203a5d2efbbdee460d44fd3a85aa44f3b@nguyenvu
+DTSTAMP:20260629T130540Z
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260726
+SUMMARY:Tour de France 2026 · Chặng 20 · Le Bourg d'Oisans > Alpe d'Huez
+DESCRIPTION:Điểm xuất phát: Le Bourg d'Oisans\nĐiểm đích: Alpe d'Huez\nCự ly chặng: 170.9 km\nLoại chặng: Mountain\nNgày: 2026-07-25\nLộ trình: Le Bourg d'Oisans > Alpe d'Huez\nBình độ/cao độ: Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.\nHình ảnh chặng: https://www.letour.fr/img/global/logo-og.png\nNguồn/Bình độ: https://www.letour.fr/en/stage-20\nGhi chú: Chưa đưa cua rơ thắng chặng năm 2025 theo yêu cầu hiện tại.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2b9df1bfd5dc15e6fcae3f4836294f9ff24ba57f@nguyenvu
+DTSTAMP:20260629T130540Z
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260727
+SUMMARY:Tour de France 2026 · Chặng 21 · Thoiry > Paris Champs-Élysées
+DESCRIPTION:Điểm xuất phát: Thoiry\nĐiểm đích: Paris Champs-Élysées\nCự ly chặng: 133 km\nLoại chặng: Flat\nNgày: 2026-07-26\nLộ trình: Thoiry > Paris Champs-Élysées\nBình độ/cao độ: Xem bình đồ/cao độ chặng tại nguồn chính thức trong link Nguồn/Bình độ.\nHình ảnh chặng: https://www.letour.fr/img/global/logo-og.png\nNguồn/Bình độ: https://www.letour.fr/en/stage-21\nGhi chú: Chưa đưa cua rơ thắng chặng năm 2025 theo yêu cầu hiện tại.
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
