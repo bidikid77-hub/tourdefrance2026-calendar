@@ -26,9 +26,9 @@ https://bidikid77-hub.github.io/tourdefrance2026-calendar/
 
 ## Hình ảnh tổng thể 21 chặng
 
-![Tour de France 2026 parcours](https://storage-aso.lequipe.fr/ASO/cycling_tdf/tdf2026-parcours.pdf)
+![Tour de France 2026 parcours - tổng thể 21 chặng](assets/tdf2026-parcours-1600.png)
 
-> Nếu GitHub không hiển thị trực tiếp PDF preview trong README, mở file PDF tại repo hoặc link nguồn chính thức bên dưới để xem toàn bộ sơ đồ 21 chặng.
+> Ảnh được render từ PDF parcours chính thức của ASO để hiển thị trực tiếp trên GitHub README.
 
 Theo Wikipedia, **Tour de France 2026** là lần tổ chức thứ **113** của Tour de France. Cuộc đua dự kiến diễn ra từ **4 đến 26 tháng 7 năm 2026**, bắt đầu tại **Barcelona**, do **Amaury Sport Organisation (ASO)** tổ chức.
 
