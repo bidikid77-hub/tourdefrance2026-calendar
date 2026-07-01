@@ -79,6 +79,13 @@ def stage_description(row: dict, stage: str) -> str:
             f"Lộ trình: {row.get('route', '')}",
         ]
 
+    if row.get('status'):
+        lines.append(f"Trạng thái: {row.get('status')}")
+    if row.get('stage_winner'):
+        lines.append(f"Người thắng chặng: {row.get('stage_winner')}")
+    if row.get('gc_leader'):
+        lines.append(f"Áo vàng tổng sắp: {row.get('gc_leader')}")
+
     return "\n".join(lines)
 
 

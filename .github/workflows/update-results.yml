@@ -1,0 +1,40 @@
+name: Update Tour de France results
+
+on:
+  schedule:
+    - cron: "59 16 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-results:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Update results
+        run: |
+          python3 update_results.py
+          python3 generate_ics.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tour-de-france-2026.json tour-de-france-2026.ics
+          if git diff --cached --quiet; then
+            echo "No result updates"
+            exit 0
+          fi
+          git commit -m "chore: update Tour de France results"
+          git push
